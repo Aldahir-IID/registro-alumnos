@@ -1,0 +1,10 @@
+# Ignorar conexión real
+config/db_connect.php
+
+# Ignorar fotos de alumnos (subir solo la carpeta vacía o con un .gitkeep)
+img/*
+!img/.gitkeep
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

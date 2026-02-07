@@ -1,0 +1,49 @@
+:root {
+    --color-bg: #f9f7f2;         
+    --color-primary: #1a1a1a;    
+    --color-accent: #d4a373;     
+    --color-highlight: #e6c2bf;  
+    --color-text: #2c2c2c;       
+    --color-white: #ffffff;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-primary); 
+}
+
+.btn-secondary {
+    background-color: var(--color-highlight);
+    border-color: var(--color-highlight);
+    color: var(--color-primary);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    background-color: var(--color-white);
+}
+
+.card-header {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: var(--color-white) !important;
+    border-bottom: 2px solid var(--color-highlight);
+}
