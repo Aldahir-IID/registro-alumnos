@@ -131,40 +131,10 @@ $edad = $hoy->diff($fecha_nac);
                             <div class="info-label">Teléfono Personal</div>
                             <div class="info-data"><?= $student['telefono_personal'] ?></div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="info-label">Tipo de Sangre</div>
-                            <div class="info-data text-danger fw-bold"><?= $student['tipo_sangre'] ?></div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="info-label">Seguro Médico (NSS)</div>
-                            <div class="info-data">
-                                <?= $student['seguro_medico'] ?> 
-                                <br><small class="text-muted"><?= isset($student['numero_seguro_social']) ? $student['numero_seguro_social'] : '' ?></small>
-                            </div>
-                        </div>
+                       
                     </div>
                     
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="info-label">Alergias / Padecimientos</div>
-                            <div class="alert alert-light border">
-                                <?= empty($student['alergias']) ? 'Ninguna registrada.' : $student['alergias'] ?>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h5 class="border-bottom pb-2 mb-4 mt-4 text-muted">En caso de Emergencia</h5>
-                    <div class="row bg-light p-3 rounded">
-                        <div class="col-md-6">
-                            <div class="info-label">Contactar a:</div>
-                            <div class="info-data mb-0"><?= $student['contacto_emergencia'] ?></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-label">Teléfono de Emergencia:</div>
-                            <div class="info-data mb-0 fw-bold"><?= $student['telefono_emergencia'] ?></div>
-                        </div>
-                    </div>
-
+                    
                     <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-5">
                         <button onclick="window.print()" class="btn btn-outline-secondary btn-lg">
                             Imprimir Ficha

@@ -78,6 +78,13 @@ if(isset($_SESSION['role'])){
                 <p class="small text-muted">¿Eres alumno de nuevo ingreso?</p>
                 <a href="pages/register.php" class="btn btn-secondary w-100">Registrarse como Alumno</a>
             </div>
+
+            <div style="text-align: center; margin-top: 25px; font-size: 11px; color: #888; line-height: 1.4;">
+                 <strong>Aviso:</strong> Este es un proyecto académico de prueba.<br>
+                No es un portal oficial de la UPEMOR. <br>
+                Por tu seguridad, <strong>no utilices datos reales</strong> ni contraseñas de uso personal.
+            </div>
+
         </div>
     </div>
 
